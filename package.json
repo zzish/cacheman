@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "cacheman-memory": "^1.0.2",
+    "cacheman-redis": "^1.1.2",
     "ms": "^0.7.1"
   }
 }
