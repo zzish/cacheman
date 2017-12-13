@@ -178,8 +178,6 @@ var Cacheman = function () {
 
         if (_engine === "memory") {
           Engine = require("cacheman-memory");
-        } else if (_engine === "redis") {
-          Engine = require("cacheman-redis");
         } else {
           throw new CachemanError('Missing required npm module ' + _engine);
         }
